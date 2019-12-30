@@ -11,10 +11,8 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : 'postgresql-dimensional-73855',
-    user : 'postgres',
-    password : 'A9807ck123!!',
-    database : 'smart_brain'
+    host : 'process.env.DATABASE_URL',
+    ssl: true,
   }
 });
 
