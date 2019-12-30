@@ -2,9 +2,9 @@
   "name": "facerecognitionbrainapi",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node script.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
